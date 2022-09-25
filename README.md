@@ -78,7 +78,7 @@ mvn test -DargLine="-Dkarate.env=e2e"
 Created a [jenkins pipeline](https://github.com/joinsbada/KaluzaTestSuits/blob/main/Jenkinsfile) stage flow for build, deploy, tests
 
 ### GitHub Actions
-Created a yml to listen to events onto /master for contineous runs [Github event actions] (https://github.com/joinsbada/KaluzaTestSuits/actions/runs/3123619449/jobs/5066407599) check outs the main master branch, builds on ubuntu-latest with Java 8 SDK, packages it and Upload karate cucumber report onto artifacts. 
+Created yml to listen to events  contineous runs [Github Actions] (https://github.com/joinsbada/KaluzaTestSuits/actions/runs/3123619449/jobs/5066407599) check outs the main master branch, builds on ubuntu-latest with Java 8 SDK, packages it and Upload karate cucumber report onto artifacts. 
 
 
 ## Future works
