@@ -25,7 +25,7 @@ Java 1.8, Maven, Karate
 ## Setting up Locally
 Git clone this repo
 ```bash
-  mvn clean test-compile gatling:test
+  git clone https://github.com/joinsbada/KaluzaTestSuits.git
 ```
 
 Run this command from the project dir
@@ -50,8 +50,7 @@ mvn clean install
 ```
 
 ## Cucumber Test Report
-Detailed Cucumber test report under /target/karate-reports/karate-summary.html folder, which will be auto created once you run the test from command line.
-You can right click and open the  index.html in any browser for detailed information on runs.
+Detailed [Cucumber test report](https://github.com/joinsbada/KaluzaTestSuits/blob/main/target/karate-reports.zip) under /target/karate-reports/karate-summary.html folder, which will be auto created once you run the test from command line.
 
 ## Environment Variables
 The runtime is configured to use 2 config properties and defaulting to "dev" as test enviornment
@@ -73,7 +72,7 @@ mvn test -DargLine="-Dkarate.env=e2e"
 ```
 
 ### Jenkins Pipeline
-Created a jenkins pipeline stage flow for build, deploy, tests
+Created a [jenkins pipeline](https://github.com/joinsbada/KaluzaTestSuits/blob/main/Jenkinsfile) stage flow for build, deploy, tests
 
 
 ## Future works
