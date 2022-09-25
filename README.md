@@ -52,6 +52,9 @@ mvn clean install
 ## Cucumber Test Report
 Detailed [Cucumber test report](https://github.com/joinsbada/KaluzaTestSuits/blob/main/target/karate-reports.zip) under /target/karate-reports/karate-summary.html folder, which will be auto created once you run the test from command line.
 
+![Report sample](https://github.com/joinsbada/KaluzaTestSuits/blob/main/target/Screenshot%202022-09-25%20at%202.02.33%20AM.png)
+
+
 ## Environment Variables
 The runtime is configured to use 2 config properties and defaulting to "dev" as test enviornment
 ```bash
