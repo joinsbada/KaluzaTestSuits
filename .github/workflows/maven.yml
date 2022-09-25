@@ -27,5 +27,5 @@ jobs:
     - name: Upload report
       uses: actions/upload-artifact@v2
       with:
-        name: cucumber report
-        path: /home/runner/work/KaluzaTestSuits/target/karate-reports
+        name: karate cucumber report
+        path: /home/runner/work/KaluzaTestSuits/KaluzaTestSuits/target/karate-reports
