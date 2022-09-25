@@ -77,6 +77,9 @@ mvn test -DargLine="-Dkarate.env=e2e"
 ### Jenkins Pipeline
 Created a [jenkins pipeline](https://github.com/joinsbada/KaluzaTestSuits/blob/main/Jenkinsfile) stage flow for build, deploy, tests
 
+### GitHub Actions
+Created a yml to listen to events onto /master for contineous runs [Github event actions ]https://github.com/joinsbada/KaluzaTestSuits/actions/runs/3123619449/jobs/5066407599) check outs the main master branch, builds on ubuntu-latest with Java 8 SDK, packages it and Upload karate cucumber report onto artifacts. 
+
 
 ## Future works
 * Response object for TFLs API is quite large >800KB in size due to multiselect, response object need to be stored locally to match specific response keys/value to improve time on test runs instead of iteration
