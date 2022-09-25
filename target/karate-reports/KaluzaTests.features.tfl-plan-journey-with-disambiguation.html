@@ -1,0 +1,1881 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("0b5e123f-0fe3-404f-a0ec-90168a67f504",{name:"srinivasbada"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>KaluzaTests.features.tfl-plan-journey-with-disambiguation</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">4</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-09-25 01:49:40 am</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1.1:33]"><span>[1.1:33]</span> <span>Disambiguation requests</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.2:34]"><span>[1.2:34]</span> <span>Disambiguation requests</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2.1:53]"><span>[2.1:53]</span> <span>Disambiguation requests</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3.1:72]"><span>[3.1:72]</span> <span>Disambiguation requests</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">KaluzaTests/features/tfl-plan-journey-with-disambiguation.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">TFL journey planner Request, with disambiguation requests</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:33]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">tfljourney</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:33]</span>
+                <span class="scenario-name">Disambiguation requests</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>228</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url TflBaseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.13">01:49:37.392 karate.env system property was: features 
+01:49:37.392 karate.env = features 
+01:49:37.392 config.baseUrl = null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;Liverpool Street Station&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;to&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;Kings Cross Station&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param mode = &#39;bus,tube,coach&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param dateTime = &#39;2022-10-22T13:15:00&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param dateTimeType = &#39;Arriving&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param journeyPreference = &#39;LeastTime&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param walkingSpeed = &#39;Slow&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param bikeProficiency = &#39;Easy&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">225</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.23">01:49:37.397 request:
+1 &gt; GET https://api.tfl.gov.uk/journey/journeyresults/Liverpool%20Street%20Station/to/Kings%20Cross%20Station?mode=bus%2Ctube%2Ccoach&amp;dateTime=2022-10-22T13%3A15%3A00&amp;journeyPreference=LeastTime&amp;bikeProficiency=Easy&amp;walkingSpeed=Slow&amp;dateTimeType=Arriving
+1 &gt; Host: api.tfl.gov.uk
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+01:49:37.619 response time in milliseconds: 222
+1 &lt; 300
+1 &lt; Date: Sun, 25 Sep 2022 00:49:37 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+1 &lt; Via: 1.1 varnish
+1 &lt; Age: 0
+1 &lt; Access-Control-Allow-Headers: Content-Type
+1 &lt; Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Api-Entity-Payload: ItineraryResult,DisambiguationResult,Mode,StopPoint,Place,Disruption,PlannedWorks,Line,LineStatus
+1 &lt; X-Backend: api
+1 &lt; X-Cache: MISS
+1 &lt; X-Cacheable: Yes. Cacheable
+1 &lt; X-Frame-Options: deny
+1 &lt; X-Proxy-Connection: unset
+1 &lt; X-TTL: 300.000
+1 &lt; X-TTL-RULE: 0
+1 &lt; X-Varnish: 1255195619
+1 &lt; X-AspNet-Version: 4.0.30319
+1 &lt; X-Operation: Journey_JourneyResultsByPathFromPathToQueryViaQueryNationalSearchQueryDateQu
+1 &lt; X-API: Journey
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Strict-Transport-Security: max-age=2592000
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 74ffc2d12f9506cd-LHR
+{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationResult, Tfl.Api.Presentation.Entities&quot;,&quot;toLocationDisambiguation&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.Disambiguation, Tfl.Api.Presentation.Entities&quot;,&quot;disambiguationOptions&quot;:[{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1001171&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/liverpoolstreetstation/to/1001171?mode=bus%2ctube%2ccoach&amp;datetime=2022-10-22t13%3a15%3a00&amp;journeypreference=leasttime&amp;bikeproficiency=easy&amp;walkingspeed=slow&amp;datetimetype=arriving&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;HUBKGX&quot;,&quot;modes&quot;:[&quot;national-rail&quot;],&quot;icsCode&quot;:&quot;1001171&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/HUBKGX&quot;,&quot;commonName&quot;:&quot;Kings Cross (London), King&#39;s Cross Station&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.531817865719994,&quot;lon&quot;:-0.12298840566000001},&quot;matchQuality&quot;:971},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1000129&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/liverpoolstreetstation/to/1000129?mode=bus%2ctube%2ccoach&amp;datetime=2022-10-22t13%3a15%3a00&amp;journeypreference=leasttime&amp;bikeproficiency=easy&amp;walkingspeed=slow&amp;datetimetype=arriving&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;HUBKGX&quot;,&quot;modes&quot;:[&quot;tube&quot;,&quot;bus&quot;],&quot;icsCode&quot;:&quot;1000129&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/HUBKGX&quot;,&quot;commonName&quot;:&quot;Kings Cross (London), King&#39;s Cross St.Pancras Underground Station&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.530860452359995,&quot;lon&quot;:-0.12384959128999999},&quot;matchQuality&quot;:938},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.53237826164,-0.12316720791&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/liverpool%20street%20station/to/51.53237826164,-0.12316720791?mode=bus%2ctube%2ccoach&amp;datetime=2022-10-22t13%3a15%3a00&amp;journeypreference=leasttime&amp;bikeproficiency=easy&amp;walkingspeed=slow&amp;datetimetype=arriving&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Camden, Burger King, King&#39;s Cross Station&quot;,&quot;placeType&quot;:&quot;PointOfInterest&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.53237826164,&quot;lon&quot;:-0.12316720790999999},&quot;matchQuality&quot;:885}],&quot;matchStatus&quot;:&quot;list&quot;},&quot;fromLocationDisambiguation&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.Disambiguation, Tfl.Api.Presentation.Entities&quot;,&quot;disambiguationOptions&quot;:[{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1000138&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/1000138/to/kingscrossstation?mode=bus%2ctube%2ccoach&amp;datetime=2022-10-22t13%3a15%3a00&amp;journeypreference=leasttime&amp;bikeproficiency=easy&amp;walkingspeed=slow&amp;datetimetype=arriving&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;HUBLST&quot;,&quot;modes&quot;:[&quot;national-rail&quot;,&quot;tube&quot;,&quot;overground&quot;,&quot;bus&quot;,&quot;coach&quot;,&quot;replacement-bus&quot;,&quot;elizabeth-line&quot;],&quot;icsCode&quot;:&quot;1000138&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/HUBLST&quot;,&quot;commonName&quot;:&quot;Liverpool Street, Liverpool Street Station&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.51781287197,&quot;lon&quot;:-0.08218294727},&quot;matchQuality&quot;:1000},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.51770550624,-0.0822162845&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.51770550624,-0.0822162845/to/kings%20cross%20station?mode=bus%2ctube%2ccoach&amp;datetime=2022-10-22t13%3a15%3a00&amp;journeypreference=leasttime&amp;bikeproficiency=easy&amp;walkingspeed=slow&amp;datetimetype=arriving&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;City of London, Burger King, Liverpool Street Station&quot;,&quot;placeType&quot;:&quot;PointOfInterest&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.517705506240006,&quot;lon&quot;:-0.0822162845},&quot;matchQuality&quot;:966},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.51908544097,-0.08136554673&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.51908544097,-0.08136554673/to/kings%20cross%20station?mode=bus%2ctube%2ccoach&amp;datetime=2022-10-22t13%3a15%3a00&amp;journeypreference=leasttime&amp;bikeproficiency=easy&amp;walkingspeed=slow&amp;datetimetype=arriving&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;City of London, Burger King, Liverpool Street Station Kiosk&quot;,&quot;placeType&quot;:&quot;PointOfInterest&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.51908544097,&quot;lon&quot;:-0.08136554673},&quot;matchQuality&quot;:957},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.51874772782,-0.08161036183&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.51874772782,-0.08161036183/to/kings%20cross%20station?mode=bus%2ctube%2ccoach&amp;datetime=2022-10-22t13%3a15%3a00&amp;journeypreference=leasttime&amp;bikeproficiency=easy&amp;walkingspeed=slow&amp;datetimetype=arriving&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;City of London, NHS Walk-In Centre, Liverpool Street Station&quot;,&quot;placeType&quot;:&quot;PointOfInterest&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.51874772782,&quot;lon&quot;:-0.081610361829999992},&quot;matchQuality&quot;:954}],&quot;matchStatus&quot;:&quot;list&quot;},&quot;viaLocationDisambiguation&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.Disambiguation, Tfl.Api.Presentation.Entities&quot;,&quot;matchStatus&quot;:&quot;empty&quot;},&quot;recommendedMaxAgeMinutes&quot;:1440,&quot;searchCriteria&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.SearchCriteria, Tfl.Api.Presentation.Entities&quot;,&quot;dateTime&quot;:&quot;2022-09-25T01:48:00&quot;,&quot;dateTimeType&quot;:&quot;Departing&quot;},&quot;journeyVector&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.JourneyVector, Tfl.Api.Presentation.Entities&quot;,&quot;from&quot;:&quot;Liverpool Street Station&quot;,&quot;to&quot;:&quot;Kings Cross Station&quot;,&quot;via&quot;:&quot;&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/liverpool%20street%20station/to/kings%20cross%20station?mode=bus%2ctube%2ccoach&amp;datetime=2022-10-22t13%3a15%3a00&amp;journeypreference=leasttime&amp;bikeproficiency=easy&amp;walkingspeed=slow&amp;datetimetype=arriving&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 300</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def responseObject = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def rootKey = &#39;toLocationDisambiguation&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def assertKeys = responseObject[rootKey]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match assertKeys.disambiguationOptions[0].$type == &quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:34]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">tfljourney</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:34]</span>
+                <span class="scenario-name">Disambiguation requests</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>232</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url TflBaseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.13">01:49:37.425 karate.env system property was: features 
+01:49:37.426 karate.env = features 
+01:49:37.426 config.baseUrl = null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;Kings Cross Station&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;to&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;Liverpool Street Station&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param mode = &#39;tube,coach&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param dateTime = &#39;2022-11-30T11:15:00&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param dateTimeType = &#39;Departing&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param journeyPreference = &#39;LeastInterchange&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param walkingSpeed = &#39;Average&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param bikeProficiency = &#39;Moderate&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">227</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.23">01:49:37.432 request:
+1 &gt; GET https://api.tfl.gov.uk/journey/journeyresults/Kings%20Cross%20Station/to/Liverpool%20Street%20Station?mode=tube%2Ccoach&amp;dateTime=2022-11-30T11%3A15%3A00&amp;journeyPreference=LeastInterchange&amp;bikeProficiency=Moderate&amp;walkingSpeed=Average&amp;dateTimeType=Departing
+1 &gt; Host: api.tfl.gov.uk
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+01:49:37.656 response time in milliseconds: 224
+1 &lt; 300
+1 &lt; Date: Sun, 25 Sep 2022 00:49:37 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+1 &lt; Via: 1.1 varnish
+1 &lt; Age: 0
+1 &lt; Access-Control-Allow-Headers: Content-Type
+1 &lt; Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Api-Entity-Payload: ItineraryResult,DisambiguationResult,Mode,StopPoint,Place,Disruption,PlannedWorks,Line,LineStatus
+1 &lt; X-Backend: api
+1 &lt; X-Cache: MISS
+1 &lt; X-Cacheable: Yes. Cacheable
+1 &lt; X-Frame-Options: deny
+1 &lt; X-Proxy-Connection: unset
+1 &lt; X-TTL: 300.000
+1 &lt; X-TTL-RULE: 0
+1 &lt; X-Varnish: 1255195634
+1 &lt; X-AspNet-Version: 4.0.30319
+1 &lt; X-Operation: Journey_JourneyResultsByPathFromPathToQueryViaQueryNationalSearchQueryDateQu
+1 &lt; X-API: Journey
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Strict-Transport-Security: max-age=2592000
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 74ffc2d15a257723-LHR
+{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationResult, Tfl.Api.Presentation.Entities&quot;,&quot;toLocationDisambiguation&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.Disambiguation, Tfl.Api.Presentation.Entities&quot;,&quot;disambiguationOptions&quot;:[{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1000138&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/kingscrossstation/to/1000138?mode=tube%2ccoach&amp;datetime=2022-11-30t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;HUBLST&quot;,&quot;modes&quot;:[&quot;national-rail&quot;,&quot;tube&quot;,&quot;overground&quot;,&quot;bus&quot;,&quot;coach&quot;,&quot;replacement-bus&quot;,&quot;elizabeth-line&quot;],&quot;icsCode&quot;:&quot;1000138&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/HUBLST&quot;,&quot;commonName&quot;:&quot;Liverpool Street, Liverpool Street Station&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.51781287197,&quot;lon&quot;:-0.08218294727},&quot;matchQuality&quot;:1000},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.51770550624,-0.0822162845&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/kings%20cross%20station/to/51.51770550624,-0.0822162845?mode=tube%2ccoach&amp;datetime=2022-11-30t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;City of London, Burger King, Liverpool Street Station&quot;,&quot;placeType&quot;:&quot;PointOfInterest&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.517705506240006,&quot;lon&quot;:-0.0822162845},&quot;matchQuality&quot;:966},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.51908544097,-0.08136554673&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/kings%20cross%20station/to/51.51908544097,-0.08136554673?mode=tube%2ccoach&amp;datetime=2022-11-30t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;City of London, Burger King, Liverpool Street Station Kiosk&quot;,&quot;placeType&quot;:&quot;PointOfInterest&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.51908544097,&quot;lon&quot;:-0.08136554673},&quot;matchQuality&quot;:957},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.51874772782,-0.08161036183&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/kings%20cross%20station/to/51.51874772782,-0.08161036183?mode=tube%2ccoach&amp;datetime=2022-11-30t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;City of London, NHS Walk-In Centre, Liverpool Street Station&quot;,&quot;placeType&quot;:&quot;PointOfInterest&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.51874772782,&quot;lon&quot;:-0.081610361829999992},&quot;matchQuality&quot;:954}],&quot;matchStatus&quot;:&quot;list&quot;},&quot;fromLocationDisambiguation&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.Disambiguation, Tfl.Api.Presentation.Entities&quot;,&quot;disambiguationOptions&quot;:[{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1001171&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/1001171/to/liverpoolstreetstation?mode=tube%2ccoach&amp;datetime=2022-11-30t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;HUBKGX&quot;,&quot;modes&quot;:[&quot;national-rail&quot;],&quot;icsCode&quot;:&quot;1001171&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/HUBKGX&quot;,&quot;commonName&quot;:&quot;Kings Cross (London), King&#39;s Cross Station&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.531817865719994,&quot;lon&quot;:-0.12298840566000001},&quot;matchQuality&quot;:971},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1000129&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/1000129/to/liverpoolstreetstation?mode=tube%2ccoach&amp;datetime=2022-11-30t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;HUBKGX&quot;,&quot;modes&quot;:[&quot;tube&quot;,&quot;bus&quot;],&quot;icsCode&quot;:&quot;1000129&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/HUBKGX&quot;,&quot;commonName&quot;:&quot;Kings Cross (London), King&#39;s Cross St.Pancras Underground Station&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.530860452359995,&quot;lon&quot;:-0.12384959128999999},&quot;matchQuality&quot;:938},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.53237826164,-0.12316720791&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.53237826164,-0.12316720791/to/liverpool%20street%20station?mode=tube%2ccoach&amp;datetime=2022-11-30t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Camden, Burger King, King&#39;s Cross Station&quot;,&quot;placeType&quot;:&quot;PointOfInterest&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.53237826164,&quot;lon&quot;:-0.12316720790999999},&quot;matchQuality&quot;:885}],&quot;matchStatus&quot;:&quot;list&quot;},&quot;viaLocationDisambiguation&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.Disambiguation, Tfl.Api.Presentation.Entities&quot;,&quot;matchStatus&quot;:&quot;empty&quot;},&quot;recommendedMaxAgeMinutes&quot;:1440,&quot;searchCriteria&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.SearchCriteria, Tfl.Api.Presentation.Entities&quot;,&quot;dateTime&quot;:&quot;2022-09-25T01:48:00&quot;,&quot;dateTimeType&quot;:&quot;Departing&quot;},&quot;journeyVector&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.JourneyVector, Tfl.Api.Presentation.Entities&quot;,&quot;from&quot;:&quot;Kings Cross Station&quot;,&quot;to&quot;:&quot;Liverpool Street Station&quot;,&quot;via&quot;:&quot;&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/kings%20cross%20station/to/liverpool%20street%20station?mode=tube%2ccoach&amp;datetime=2022-11-30t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 300</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def responseObject = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def rootKey = &#39;toLocationDisambiguation&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def assertKeys = responseObject[rootKey]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match assertKeys.disambiguationOptions[0].$type == &quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.1:53]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">tfljourney</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.1:53]</span>
+                <span class="scenario-name">Disambiguation requests</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>90</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url TflBaseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.38">01:49:37.551 karate.env system property was: features 
+01:49:37.552 karate.env = features 
+01:49:37.552 config.baseUrl = null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;to&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param mode = &#39;bus,tube,coach&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param dateTime = &#39;2022-22-22T13:15:00&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param dateTimeType = &#39;Arriving&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param journeyPreference = &#39;LeastTime&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param walkingSpeed = &#39;Slow&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param bikeProficiency = &#39;Easy&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">88</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.48">01:49:37.558 request:
+1 &gt; GET https://api.tfl.gov.uk/journey/journeyresults//to/?mode=bus%2Ctube%2Ccoach&amp;dateTime=2022-22-22T13%3A15%3A00&amp;journeyPreference=LeastTime&amp;bikeProficiency=Easy&amp;walkingSpeed=Slow&amp;dateTimeType=Arriving
+1 &gt; Host: api.tfl.gov.uk
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+01:49:37.643 response time in milliseconds: 85
+1 &lt; 404
+1 &lt; Date: Sun, 25 Sep 2022 00:49:37 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: must-revalidate, max-age=60, s-maxage=60
+1 &lt; Pragma: no-cache
+1 &lt; Via: 1.1 varnish
+1 &lt; Expires: -1
+1 &lt; Age: 0
+1 &lt; Access-Control-Allow-Headers: Content-Type
+1 &lt; Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; x-backend: api
+1 &lt; X-Cache: MISS
+1 &lt; x-host: api.digital.tfl.gov.uk
+1 &lt; X-No-Smaxage: true
+1 &lt; X-Proxy-Connection: unset
+1 &lt; X-Request-404: true
+1 &lt; X-TTL-RULE: 1
+1 &lt; X-Varnish: 688226326
+1 &lt; X-AspNet-Version: 4.0.30319
+1 &lt; X-Operation: Forward_Proxy
+1 &lt; X-API: Journey
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Strict-Transport-Security: max-age=2592000
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 74ffc2d22b08408a-LHR
+{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities&quot;,&quot;timestampUtc&quot;:&quot;2022-09-25T00:48:54.4067892Z&quot;,&quot;exceptionType&quot;:&quot;EntityNotFoundException&quot;,&quot;httpStatusCode&quot;:404,&quot;httpStatus&quot;:&quot;NotFound&quot;,&quot;relativeUri&quot;:&quot;/Journey/journeyresults/to/?mode=bus%2Ctube%2Ccoach&amp;dateTime=2022-22-22T13%3A15%3A00&amp;journeyPreference=LeastTime&amp;bikeProficiency=Easy&amp;walkingSpeed=Slow&amp;dateTimeType=Arriving&quot;,&quot;message&quot;:&quot;Resource not found: http://api:8001/Journey/journeyresults/to/?mode=bus%2Ctube%2Ccoach&amp;dateTime=2022-22-22T13:15:00&amp;journeyPreference=LeastTime&amp;bikeProficiency=Easy&amp;walkingSpeed=Slow&amp;dateTimeType=Arriving&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.49">
+      <div class="step-ref passed">49</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3.1:72]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">tfljourney</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3.1:72]</span>
+                <span class="scenario-name">Disambiguation requests</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>237</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url TflBaseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.57">01:49:37.619 karate.env system property was: features 
+01:49:37.620 karate.env = features 
+01:49:37.620 config.baseUrl = null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.58">
+      <div class="step-ref passed">58</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;Victoria&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.59">
+      <div class="step-ref passed">59</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;to&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.60">
+      <div class="step-ref passed">60</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;Blackfriars&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.61">
+      <div class="step-ref passed">61</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param mode = &#39;bus&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.62">
+      <div class="step-ref passed">62</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param dateTime = &#39;0000-11-22T11:15:00&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.63">
+      <div class="step-ref passed">63</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param dateTimeType = &#39;Departing&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.64">
+      <div class="step-ref passed">64</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param journeyPreference = &#39;LeastInterchange&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.65">
+      <div class="step-ref passed">65</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param walkingSpeed = &#39;Average&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.66">
+      <div class="step-ref passed">66</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param bikeProficiency = &#39;Moderate&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.67">
+      <div class="step-ref passed">67</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">235</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.67">01:49:37.626 request:
+1 &gt; GET https://api.tfl.gov.uk/journey/journeyresults/Victoria/to/Blackfriars?mode=bus&amp;dateTime=0000-11-22T11%3A15%3A00&amp;journeyPreference=LeastInterchange&amp;bikeProficiency=Moderate&amp;walkingSpeed=Average&amp;dateTimeType=Departing
+1 &gt; Host: api.tfl.gov.uk
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+01:49:37.858 response time in milliseconds: 231
+1 &lt; 300
+1 &lt; Date: Sun, 25 Sep 2022 00:49:37 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: public, must-revalidate, max-age=150, s-maxage=300
+1 &lt; Via: 1.1 varnish
+1 &lt; Age: 0
+1 &lt; Access-Control-Allow-Headers: Content-Type
+1 &lt; Access-Control-Allow-Methods: GET,POST,PUT,DELETE,OPTIONS
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Api-Entity-Payload: ItineraryResult,DisambiguationResult,Mode,StopPoint,Place,Disruption,PlannedWorks,Line,LineStatus
+1 &lt; X-Backend: api
+1 &lt; X-Cache: MISS
+1 &lt; X-Cacheable: Yes. Cacheable
+1 &lt; X-Frame-Options: deny
+1 &lt; X-Proxy-Connection: unset
+1 &lt; X-TTL: 300.000
+1 &lt; X-TTL-RULE: 0
+1 &lt; X-Varnish: 1255195667
+1 &lt; X-AspNet-Version: 4.0.30319
+1 &lt; X-Operation: Journey_JourneyResultsByPathFromPathToQueryViaQueryNationalSearchQueryDateQu
+1 &lt; X-API: Journey
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Strict-Transport-Security: max-age=2592000
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 74ffc2d299fa76cf-LHR
+{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationResult, Tfl.Api.Presentation.Entities&quot;,&quot;toLocationDisambiguation&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.Disambiguation, Tfl.Api.Presentation.Entities&quot;,&quot;disambiguationOptions&quot;:[{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.50802280268,-0.10448359443&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/51.50802280268,-0.10448359443?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Southwark, One Blackfriars&quot;,&quot;placeType&quot;:&quot;PointOfInterest&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.50802280268,&quot;lon&quot;:-0.10448359442999999},&quot;matchQuality&quot;:970},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1004063&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/1004063?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;490G00004063&quot;,&quot;modes&quot;:[&quot;bus&quot;],&quot;icsCode&quot;:&quot;1004063&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/490G00004063&quot;,&quot;commonName&quot;:&quot;Southwark, Blackfriars Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.50684105224,&quot;lon&quot;:-0.10369685509},&quot;matchQuality&quot;:967},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1002016&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/1002016?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;930GBFR&quot;,&quot;modes&quot;:[&quot;river-bus&quot;],&quot;icsCode&quot;:&quot;1002016&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/930GBFR&quot;,&quot;commonName&quot;:&quot;Blackfriars (London), Blackfriars Pier&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.51075514754,&quot;lon&quot;:-0.10161762106000001},&quot;matchQuality&quot;:967},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.50454338633,-0.10452712313&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/51.50454338633,-0.10452712313?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Lambeth, Blackfriars Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.50454338633,&quot;lon&quot;:-0.10452712313000001},&quot;matchQuality&quot;:967},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.50848940382,-0.10442099668&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/51.50848940382,-0.10442099668?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;City of London, Blackfriars Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.50848940382,&quot;lon&quot;:-0.10442099668},&quot;matchQuality&quot;:967},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.51252356034,-0.10364823752&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/51.51252356034,-0.10364823752?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;City of London, Blackfriars Court&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.51252356034,&quot;lon&quot;:-0.10364823751999999},&quot;matchQuality&quot;:964},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.51028670877,-0.10434639425&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/51.51028670877,-0.10434639425?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;City of London, Blackfriars Bridge&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.510286708769996,&quot;lon&quot;:-0.10434639425},&quot;matchQuality&quot;:961},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1000023&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/1000023?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;HUBBFR&quot;,&quot;modes&quot;:[&quot;national-rail&quot;,&quot;tube&quot;,&quot;bus&quot;],&quot;icsCode&quot;:&quot;1000023&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/HUBBFR&quot;,&quot;commonName&quot;:&quot;Blackfriars (London), Blackfriars Station&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.511808036409995,&quot;lon&quot;:-0.1033320721},&quot;matchQuality&quot;:959},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.51138161166,-0.10254273832&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/51.51138161166,-0.10254273832?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;City of London, Blackfriars Passage&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.511381611660006,&quot;lon&quot;:-0.10254273832000001},&quot;matchQuality&quot;:959},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.51102048332,-0.10356654169&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/51.51102048332,-0.10356654169?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;City of London, Blackfriars Underpass&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.511020483319996,&quot;lon&quot;:-0.10356654169},&quot;matchQuality&quot;:954},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.49923876947,-0.10458873361&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/51.49923876947,-0.10458873361?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Southwark, Blackfriars Circus, SE1&quot;,&quot;placeType&quot;:&quot;PointOfInterest&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.49923876947,&quot;lon&quot;:-0.10458873361},&quot;matchQuality&quot;:949},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1020084&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/1020084?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;490G00020084&quot;,&quot;modes&quot;:[&quot;bus&quot;],&quot;icsCode&quot;:&quot;1020084&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/490G00020084&quot;,&quot;commonName&quot;:&quot;Blackfriars (London), Blackfriars Station / North Entrance&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.51149942369,&quot;lon&quot;:-0.10426722946},&quot;matchQuality&quot;:933},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1013934&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/1013934?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;HUBBFR&quot;,&quot;modes&quot;:[&quot;bus&quot;],&quot;icsCode&quot;:&quot;1013934&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/HUBBFR&quot;,&quot;commonName&quot;:&quot;Southwark, Blackfriars Station / South Entrance&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.508498855850007,&quot;lon&quot;:-0.10444942557999999},&quot;matchQuality&quot;:933}],&quot;matchStatus&quot;:&quot;list&quot;},&quot;fromLocationDisambiguation&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.Disambiguation, Tfl.Api.Presentation.Entities&quot;,&quot;disambiguationOptions&quot;:[{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1000248&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/1000248/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;HUBVIC&quot;,&quot;modes&quot;:[&quot;national-rail&quot;,&quot;tube&quot;,&quot;bus&quot;,&quot;coach&quot;],&quot;icsCode&quot;:&quot;1000248&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/HUBVIC&quot;,&quot;commonName&quot;:&quot;Victoria (London), London Victoria&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.49582877945,&quot;lon&quot;:-0.14382962047},&quot;matchQuality&quot;:965},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1015226&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/1015226/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;490G00015226&quot;,&quot;modes&quot;:[&quot;bus&quot;],&quot;icsCode&quot;:&quot;1015226&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/490G00015226&quot;,&quot;commonName&quot;:&quot;Charlton (London), Victoria Way&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.483511718340004,&quot;lon&quot;:0.02863353064},&quot;matchQuality&quot;:965},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.4835403956,0.02801547503&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.4835403956,0.02801547503/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Greenwich (London), Victoria Way&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.483540395599995,&quot;lon&quot;:0.02801547503},&quot;matchQuality&quot;:965},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1006025&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/1006025/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;490G00006025&quot;,&quot;modes&quot;:[&quot;bus&quot;],&quot;icsCode&quot;:&quot;1006025&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/490G00006025&quot;,&quot;commonName&quot;:&quot;Globe Town, Victoria Park&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.53403743418,&quot;lon&quot;:-0.04202252904},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;1014055&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/1014055/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities&quot;,&quot;naptanId&quot;:&quot;490G00014055&quot;,&quot;modes&quot;:[&quot;bus&quot;],&quot;icsCode&quot;:&quot;1014055&quot;,&quot;stopType&quot;:&quot;stop&quot;,&quot;url&quot;:&quot;/StopPoint/490G00014055&quot;,&quot;commonName&quot;:&quot;Paddington (London), Victoria Gate&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.512155886079995,&quot;lon&quot;:-0.17109584003},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.57601697951,0.19033745058&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.57601697951,0.19033745058/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Havering-Atte-Bower, Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.57601697951,&quot;lon&quot;:0.19033745058},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.5911840386,0.03053976351&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.5911840386,0.03053976351/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Redbridge (London), Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.5911840386,&quot;lon&quot;:0.03053976351},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.51342109021,-0.06554835463&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.51342109021,-0.06554835463/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;City of London, Victoria Yard&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.513421090209995,&quot;lon&quot;:-0.06554835463},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.65073071524,-0.16893511559&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.65073071524,-0.16893511559/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Enfield (London), Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.65073071524,&quot;lon&quot;:-0.16893511559},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.62242378295,-0.06581328312&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.62242378295,-0.06581328312/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Enfield (London), Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.62242378295,&quot;lon&quot;:-0.06581328312},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.57075630958,-0.11128373814&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.57075630958,-0.11128373814/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Hackney (London), Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.57075630958,&quot;lon&quot;:-0.11128373814},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.52261039192,-0.31556028287&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.52261039192,-0.31556028287/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Ealing, Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.52261039192,&quot;lon&quot;:-0.31556028287},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.50003751464,-0.3785754379&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.50003751464,-0.3785754379/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Ealing, Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.500037514640006,&quot;lon&quot;:-0.37857543790000003},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.49050611226,-0.4368913264&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.49050611226,-0.4368913264/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Hillingdon, Victoria Lane&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.49050611226,&quot;lon&quot;:-0.4368913264},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.56041728697,-0.39997303718&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.56041728697,-0.39997303718/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Hillingdon, Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.560417286969994,&quot;lon&quot;:-0.39997303718},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.5839744819,-0.06705681572&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.5839744819,-0.06705681572/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Harringay, Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.5839744819,&quot;lon&quot;:-0.06705681572},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.32113589778,-0.13692638972&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.32113589778,-0.13692638972/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Croydon (London), Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.32113589778,&quot;lon&quot;:-0.13692638972},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.59920331346,-0.12893252537&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.59920331346,-0.12893252537/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Harringay, Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.59920331346,&quot;lon&quot;:-0.12893252537},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.42166016522,0.06156450766&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.42166016522,0.06156450766/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Bromley (London), Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.42166016522,&quot;lon&quot;:0.061564507660000004},&quot;matchQuality&quot;:962},{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.DisambiguationOption, Tfl.Api.Presentation.Entities&quot;,&quot;parameterValue&quot;:&quot;51.3898391397,0.03970894638&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/51.3898391397,0.03970894638/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;,&quot;place&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities&quot;,&quot;url&quot;:&quot;/Place/&quot;,&quot;commonName&quot;:&quot;Bromley (London), Victoria Road&quot;,&quot;placeType&quot;:&quot;StopPoint&quot;,&quot;additionalProperties&quot;:[],&quot;lat&quot;:51.3898391397,&quot;lon&quot;:0.03970894638},&quot;matchQuality&quot;:962}],&quot;matchStatus&quot;:&quot;list&quot;},&quot;viaLocationDisambiguation&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.Disambiguation, Tfl.Api.Presentation.Entities&quot;,&quot;matchStatus&quot;:&quot;empty&quot;},&quot;recommendedMaxAgeMinutes&quot;:1440,&quot;searchCriteria&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.SearchCriteria, Tfl.Api.Presentation.Entities&quot;,&quot;dateTime&quot;:&quot;2022-09-25T01:48:00&quot;,&quot;dateTimeType&quot;:&quot;Departing&quot;},&quot;journeyVector&quot;:{&quot;$type&quot;:&quot;Tfl.Api.Presentation.Entities.JourneyPlanner.JourneyVector, Tfl.Api.Presentation.Entities&quot;,&quot;from&quot;:&quot;Victoria&quot;,&quot;to&quot;:&quot;Blackfriars&quot;,&quot;via&quot;:&quot;&quot;,&quot;uri&quot;:&quot;/journey/journeyresults/victoria/to/blackfriars?mode=bus&amp;datetime=0000-11-22t11%3a15%3a00&amp;journeypreference=leastinterchange&amp;bikeproficiency=moderate&amp;walkingspeed=average&amp;datetimetype=departing&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.68">
+      <div class="step-ref passed">68</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 300</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
