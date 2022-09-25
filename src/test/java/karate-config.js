@@ -20,8 +20,8 @@ function fn() {
     config.WikiBaseUrl = 'https://e2e.test.wikipedia.org/w/api.php'
   }
 
-  karate.configure('connectTimeout', 5000);
-  karate.configure('readTimeout', 5000);
+//  karate.configure('connectTimeout', 5000);
+//  karate.configure('readTimeout', 5000);
 
   karate.log('karate.env =', karate.env);
   karate.log('config.baseUrl =', config.baseUrl);
