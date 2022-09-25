@@ -7,6 +7,7 @@ Feature: Workflow/request chaining tests for MediaWiki Token generation with mod
 # POST /w/api.php
 # https://www.mediawiki.org/wiki/API:Main_page#API_documentation
 
+
 # Action: Step 1: GET request to fetch login token [lgtoken]
   Scenario: Token generation
     Given url WikiBaseUrl
@@ -49,12 +50,18 @@ Feature: Workflow/request chaining tests for MediaWiki Token generation with mod
     * print response
     * def  csrftoken = response.query.tokens.csrftoken
 
+
+# Util for generating random number and update to filed "text" for new version
+    * def getRandomValue = function() {return Math.floor((1000000) * Math.random());}
+    * def createNewUUId = getRandomValue()
+    * print createNewUUId
+
 # Action: Step 4: Send a POST request, with the CSRF token, to take action on a page
     Given url WikiBaseUrl
     And headers {"host":"test.wikipedia.org","content-type":"application/x-www-form-urlencoded"}
     And form field action = 'edit'
     And form field title = 'Project:Sandbox'
-    And form field text = 'test edit1112'
+    And form field text = 'Test Edit'+createNewUUId
     And form field token = csrftoken
     And form field format = 'json'
     When method post
