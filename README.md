@@ -67,11 +67,11 @@ Its quite common we come across to run same tests across test enviornments to se
 
 Run Tests on stage env, with different endpoint matching stage
 ```bash
-mvn test -DargLine="-Dkarate.env=stage"
+mvn test -Dkarate.env=stage
 ```
 Run Tests on e2e env, with different endpoint matching e2e
 ```bash
-mvn test -DargLine="-Dkarate.env=e2e"
+mvn test -Dkarate.env=e2e
 ```
 
 ### Jenkins Pipeline
